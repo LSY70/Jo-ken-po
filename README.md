@@ -6,5 +6,7 @@ _Comandos_
 - `chmod +x main`  
 - `./main`
 
+
 _Execução_  
+
 ![Imagem](https://raw.githubusercontent.com/Lursy/Jo-ken-po/main/ppt.png)
