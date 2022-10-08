@@ -1,2 +1,7 @@
-# Jo-ken-po
-Pedra, papel, tesoura. Um simples jogo feito em C
+# Jo-Ken-Po!!
+
+_Comandos_
+
+> `clang main.c -o main`    
+ `chmod +x main`  
+ `./main`
