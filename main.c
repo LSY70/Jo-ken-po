@@ -12,12 +12,12 @@ int line(char caractere, int length){
     return 0;
 }
 
-int main(void){
+int main(){
     do {
         printf("\e[1;1H\e[2J");
         srand(time(NULL));
 
-        //Definindo as opções e a ordem de resultados
+        //Definindo as opÃ§Ãµes e a ordem de resultados
         int options[5] = {3, 1, 2, 3, 1};
         int c, length = sizeof(options)/sizeof(options[0]);
         char *itens[3] = {"Pedra", "Papel", "Tesoura"};
@@ -38,7 +38,7 @@ int main(void){
         printf("\n\n");
 
         //Verificando resultado
-        if (options[usuario] == maquina+1){ //usuario = 0 = Pedra / oprions[0] == 3 se maquina == 3 é vitória
+        if (options[usuario] == maquina+1){ //usuario = 0 = Pedra / oprions[0] == 3 se maquina == 3 Ã© vitÃ³ria
             printf("Vitoria!");
         }
         else if (usuario+1 == options[maquina]){
